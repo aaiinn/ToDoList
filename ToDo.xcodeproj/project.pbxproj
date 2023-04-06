@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AAB71529DC4AB400E88D8A /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AAB71429DC4AB400E88D8A /* object.swift */; };
+		07AAB71729DC4B3F00E88D8A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AAB71629DC4B3F00E88D8A /* Header.swift */; };
+		07AAB71929DC4B5600E88D8A /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AAB71829DC4B5600E88D8A /* TextFieldView.swift */; };
+		07AAB71B29DC4B6400E88D8A /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AAB71A29DC4B6400E88D8A /* TodoListView.swift */; };
+		07AAB71D29DC4B7500E88D8A /* SaveLoadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AAB71C29DC4B7500E88D8A /* SaveLoadButtonView.swift */; };
 		07D98ED229DAC2110088F8AC /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D98ED129DAC2110088F8AC /* ToDoApp.swift */; };
 		07D98ED429DAC2110088F8AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D98ED329DAC2110088F8AC /* ContentView.swift */; };
 		07D98ED629DAC2110088F8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D98ED529DAC2110088F8AC /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AAB71429DC4AB400E88D8A /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
+		07AAB71629DC4B3F00E88D8A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		07AAB71829DC4B5600E88D8A /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		07AAB71A29DC4B6400E88D8A /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		07AAB71C29DC4B7500E88D8A /* SaveLoadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLoadButtonView.swift; sourceTree = "<group>"; };
 		07D98ECE29DAC2110088F8AC /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D98ED129DAC2110088F8AC /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		07D98ED329DAC2110088F8AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07AAB71329DC4AA400E88D8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07AAB71629DC4B3F00E88D8A /* Header.swift */,
+				07AAB71829DC4B5600E88D8A /* TextFieldView.swift */,
+				07AAB71A29DC4B6400E88D8A /* TodoListView.swift */,
+				07AAB71C29DC4B7500E88D8A /* SaveLoadButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		07D98EC529DAC2110088F8AC = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +117,9 @@
 			children = (
 				07D98ED129DAC2110088F8AC /* ToDoApp.swift */,
 				07D98ED329DAC2110088F8AC /* ContentView.swift */,
+				07AAB71429DC4AB400E88D8A /* object.swift */,
 				07D98ED529DAC2110088F8AC /* Assets.xcassets */,
+				07AAB71329DC4AA400E88D8A /* View */,
 				07D98ED729DAC2110088F8AC /* Preview Content */,
 			);
 			path = ToDo;
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AAB71D29DC4B7500E88D8A /* SaveLoadButtonView.swift in Sources */,
+				07AAB71729DC4B3F00E88D8A /* Header.swift in Sources */,
+				07AAB71929DC4B5600E88D8A /* TextFieldView.swift in Sources */,
+				07AAB71B29DC4B6400E88D8A /* TodoListView.swift in Sources */,
 				07D98ED429DAC2110088F8AC /* ContentView.swift in Sources */,
 				07D98ED229DAC2110088F8AC /* ToDoApp.swift in Sources */,
+				07AAB71529DC4AB400E88D8A /* object.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
